@@ -30,7 +30,11 @@ Backend Dependencies:
 
 
 #How to use:
-Start the web app
-Paste the email you think is a phishing email and click/tap on Scan email
-You will get the result almost immediately
+
+1.Start the web app
+
+2.Paste the email you think is a phishing email and click/tap on Scan email
+
+3.You will get the result almost immediately
+
 The application uses OpenAi's Api key to detect the input email
