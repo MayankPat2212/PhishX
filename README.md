@@ -1,5 +1,7 @@
 # PhishX
 A Web application which allows the user to check whether an email is a phishing email or not.
+
+
 #Requirements:
 Frontend (React App) Dependencies:
 
@@ -25,6 +27,8 @@ Backend Dependencies:
     fastapi: Framework for building APIs (used if you decide to build a Python backend).
 
     uvicorn: ASGI server for running FastAPI applications.
+
+
 #How to use:
 Start the web app
 Paste the email you think is a phishing email and click/tap on Scan email
