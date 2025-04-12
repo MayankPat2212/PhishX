@@ -1,0 +1,76 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0a0a0a;
+  color: #00ffea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #121212;
+  border: 2px solid #00ffea;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffea33;
+  padding: 40px;
+  width: 600px;
+  text-align: center;
+}
+
+.glow-text {
+  font-size: 2.5rem;
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+}
+
+.subtitle {
+  color: #9be7e0;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 90%;
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: #00ffea;
+  border: 1px solid #00ffea66;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #00ffea;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffea88;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00cccc;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.phishing {
+  color: #ff4c4c;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ff4c4c;
+}
+
+.normal {
+  color: #33ff33;
+  font-weight: bold;
+  text-shadow: 0 0 10px #33ff33;
+}
